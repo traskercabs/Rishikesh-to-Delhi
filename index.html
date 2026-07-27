@@ -4,10 +4,23 @@
   <meta name="google-site-verification" content="pDkMOxEYynkccisqt4u0ruj92kylimPHBnyAyryzd24" />
   <!-- Google tag (gtag.js) -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-5EM9KRMB0L');
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-0B8TQP552N';
+      document.head.appendChild(script);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag = gtag;
+
+      gtag('js', new Date());
+      gtag('config', 'G-0B8TQP552N');
+
+    }, 3000); // Delay by 3 seconds after page load
+  });
   </script>
   
   <meta charset="UTF-8">
@@ -557,7 +570,7 @@
         <div class="image-frame">
           <span class="image-badge">Express Corridor</span>
           <img 
-            src="Aii.avif" 
+            src="ertiga.avif" 
             alt="Scenic view of the Rishikesh to Delhi highway journey" 
             loading="lazy">
         </div>
@@ -652,8 +665,8 @@
       <div class="footer-col">
         <h4>Navigation Links</h4>
         <a href="https://traskercabs.github.io/Trasker-Cabs/">Main Web Portal</a>
-        <a href="https://traskercabs.github.io/Trasker-Cabs/delhi-to-mussoorie.html">Delhi to Mussoorie Cab</a>
-        <a href="#">Delhi to Rishikesh Cab</a>
+        <a href="https://traskercabs.github.io/Delhi-Mussoorie/">Delhi to Mussoorie Cab</a>
+        <a href="https://traskercabs.github.io/Delhi-to-Rishikesh-/">Delhi to Rishikesh Cab</a>
       </div>
       <div class="footer-col">
         <h4>Support Terminal</h4>
