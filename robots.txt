@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://traskercabs.github.io/Rishikesh-to-Delhi/sitemap.xml
+Sitemap: https://rishikesh-delhi.traskercabs.com/sitemap.xml
